@@ -1,0 +1,6 @@
+git init 
+mkdir nombreDirectorio
+ls -R 
+git commit -m "nombre del commit"
+git add . 
+
