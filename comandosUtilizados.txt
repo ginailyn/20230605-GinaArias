@@ -1,0 +1,56 @@
+  113  git init 
+  114  git branch -M main
+  115  git remote add origin https://github.com/ginailyn/20230605-GinaArias.git
+  116  git remote -v
+  117  touch comandos.txt main.js index.html
+  118  git add .
+  119  git commit -m "commit 01 de Gina Arias"
+  120  git push origin main
+  121  git branch feature01
+  122  git checkout feature01
+  123  mkdir Terminal Hardware
+  124  cd Hardware/
+  125  touch resumen.txt
+  126  cd ..
+  127  cd Terminal/
+  128  touch resumen.txt
+  129  cd ..
+  130  ls -R
+  131  git add .
+  132  git commit -m "commit 02 Gina Arias"
+  133  git push origin feature01
+  134  git branch feature02
+  135  git checkout feature02
+  136  cd Terminal
+  137  ls
+  138  nano resumen.txt
+  139  cd ..
+  140  cd Hardware 
+  141  nano resumen.txt
+  142  git add .
+  143  git commit -m "commit 03 Gina Arias"
+  144  git push origin feature02
+  145  git switch main
+  146  cd ..
+  147  git add .
+  148  git commit "commit 03 - lo que faltó subir de Terminal"
+  149  ls 
+  150  cd Terminal
+  151  ls
+  152  nano resumen.txt
+  153  git add .
+  154  git commit "commit 03 - lo que faltó subir de Terminal"
+  155  git push origin feature02
+  156  ls
+  157  nano resumen.txt
+  158  git add resumen.txt
+  159  git commit -m "commit ultimo de Terminal"
+  160  git push origin feature02
+  161  git checkout main
+  162  ls
+  163  cd ..
+  164  ls
+  165  history >com.txt
+  166  rm com.txt
+  167  mv comandos.txt comandosUtilizados.txt
+  168  history>comandosUtilizados.txt
